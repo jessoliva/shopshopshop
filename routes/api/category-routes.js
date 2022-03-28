@@ -16,10 +16,13 @@ router.get('/', (req, res) => {
          }
       ]
    })
+   // this is the Promise that captures the response from the database call
+   // database call is the findAll and what is returned
    .then(dbCategoryData => res.json(dbCategoryData)) 
    .catch(err => {
-       console.log(err);
-       res.status(500).json(err);
+      console.log(err);
+      res.status(500).json(err); 
+      // 500 is internal server error
    });
 });
 
@@ -51,7 +54,6 @@ router.get('/:id', (req, res) => {
       console.log(err);
       res.status(500).json(err);
    });
-
 });
 
 // create new category
