@@ -72,8 +72,8 @@ MySQL Process:
 Seed Database Process:
 
     npm run seed
-- Run the above seed command to seed with test data after you've navigated to the root directory of the project. 
-
+- Navigate to the roof directory of the project
+- Run the above seed command to seed with test data
 
 <!-- <p align="left" width="100%">
 &emsp;&emsp;&emsp;<img src="assets/images/code2.jpeg" alt="start screen" width="100%" align="top"> 
