@@ -61,17 +61,6 @@ Code Features
 - Several conditional statements to enable extensive manipulation of the database
 
 
-Backend of an e-commerce site
-Working Express API
-Configured using Sequelize
-Interact with a MySQL database
-Give your internet retail business an edge over the competition
-Uses the latest technology
-Implements environment variables
-Scripted schema and seed commands
-Invoking app syncs Sequelize models to MySQL database
-Working Get, Post, Put, and Delete routes
-Full CRUD functionality
 
 ## 🛠️&nbsp; Installation
 
@@ -123,6 +112,7 @@ Also located in: assets/walk-through.mov
 - [MDN Web Docs](https://developer.mozilla.org/en-US/)
 - [W3Schools - event onchange](https://www.w3schools.com/)
 - [Stack Overflow](https://stackoverflow.com/)
+- [Shields.io](https://shields.io/)
 
 ## 📱&nbsp; Contact
 
