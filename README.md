@@ -67,7 +67,6 @@ MySQL Process:
     mysql -u <username> -p
 - Enter password after entering command above.
 - Enter 'SOURCE db/schema.sql' to create database
-<!-- - Enter 'USE USE e_commerce.db' to use database -->
 - Enter 'quit' to exit out of MySQL 
 
 Seed Database Process:
