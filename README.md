@@ -62,20 +62,27 @@ Modify the '.env.Example' file: </br>
 - Enter your MySQL username, and MySQL password </br>
 - Rename file to '.env'
 
-MySQL:
+MySQL Process:
 
     mysql -u <username> -p
 - Enter password after entering command above.
-- Enter schema and seed commands to create database and seed with test data.
+- Enter 'SOURCE db/schema.sql' to create database
+<!-- - Enter 'USE USE e_commerce.db' to use database -->
 - Enter 'quit' to exit out of MySQL 
 
-<p align="left" width="100%">
+Seed Database Process:
+
+    npm run seed
+- Run the above seed command to seed with test data after you've navigated to the root directory of the project. 
+
+
+<!-- <p align="left" width="100%">
 &emsp;&emsp;&emsp;<img src="assets/images/code2.jpeg" alt="start screen" width="100%" align="top"> 
-</p>
+</p> -->
 
 ## 👩🏽‍💻&nbsp; Usage
 
-To invoke the application, run the following command:
+To invoke the application, navigate to the root directory of the project and run the following command:
 
     npm start
 
